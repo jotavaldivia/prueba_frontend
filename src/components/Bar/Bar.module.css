@@ -1,74 +1,72 @@
 .bar_container {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    width: 100%;
-    min-height: 43px;
-    flex-shrink: 0;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  width: 100%;
+  min-height: 43px;
+  flex-shrink: 0;
 }
 
 .bar_container__elements {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
 }
 
 .container__text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    margin: 0 auto;
-    padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .container_icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300;
-    position: absolute;
-    right: 0;
-    top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300;
+  position: absolute;
+  right: 0;
+  top: 10px;
 }
 
-.container_icons p{
-    margin: 0;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-right: #FFF solid 1px;
+.container_icons p {
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: #fff solid 1px;
 }
 
-.container_icons img{
-    padding-left: 15px;
+.container_icons img {
+  padding-left: 15px;
 }
 
 .bar_container h3 {
-    color: #FFF;
-    text-align: center;
-    font-feature-settings: 'clig'off, 'liga'off;
-    font-family: Outfit;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 44px;
-    /* 160% */
-    text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px;
+  /* 160% */
+  text-transform: uppercase;
 }
 
-
 @media screen and (max-width: 1200px) {
- 
-    .container_icons {
-        position: relative;
+  .container_icons {
+    position: relative;
     top: 0;
-    }
+  }
 
-    .bar_container h3 {
-        font-size: 0.8rem;
-    }
+  .bar_container h3 {
+    font-size: 0.8rem;
+  }
 
-    .container_icons p{
-       font-size: 0.8rem;
-    }
+  .container_icons p {
+    font-size: 0.8rem;
+  }
 }
