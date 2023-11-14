@@ -1,0 +1,52 @@
+.container{
+    margin-top: 1.5rem;
+}
+
+.title{
+    color: #666;
+    font-family: Outfit;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: -0.16px;
+}
+
+.container_options{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+
+
+.tienda, .despacho{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid var(--tertiary-color);
+    padding: 10px;
+    border-radius: 5px;
+
+}
+p{
+    color: #4D525C;
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+}
+
+input[type="radio"]:checked::after{
+    display: inline-block;
+    content: "";
+    position: relative;
+    height: 7px;
+    width: 7px;
+    background: var(--tertiary-color);
+    border:3px solid var(--tertiary-color);
+    border-radius: 50%;
+  
+}

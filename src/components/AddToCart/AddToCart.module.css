@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.counter {
+  width: 250px;
+}
+
+.counter button {
+  width: 30px;
+  height: 35px;
+  flex-shrink: 0;
+  border: 1px solid #ffffff;
+  color: #02212c;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.counter span {
+  font-size: 1.3rem;
+  margin-left: 70px;
+  margin-right: 70px;
+  font-weight: 700;
+}
+
+.button__addToCart{
+    width: 400px;
+    height: 40px;
+    background-color: var( --tertiary-color);
+    border: 1px solid white;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+}
